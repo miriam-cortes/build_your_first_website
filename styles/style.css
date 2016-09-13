@@ -1,0 +1,53 @@
+
+header{
+  text-align: center;
+  border: 3px;
+  border-style: dotted;
+  border-style: groove;
+  color: red;
+  font-family: Arial;
+  background-color: lightblue;
+}
+
+body {
+    font: Helvetica;
+    background-color: lightyellow;
+}
+
+nav img {
+  height:200px;
+}
+
+nav{
+  color: orange;
+
+}
+
+ul{
+  list-style: none;
+}
+
+article img {
+  border-style: double;
+  border-color: pink;
+  border-radius: 10px;
+  border-width: thick;
+  float: left;
+}
+
+h2 ul {
+  display: inline;
+}
+
+a:hover {
+  color: black;
+}
+
+footer{
+  background-color: lightblue;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+  font-style: italic;
+}
