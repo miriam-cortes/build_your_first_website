@@ -1,0 +1,22 @@
+.big-book-section img{
+  height: auto;
+  width: auto;
+  max-width: 30%;
+  background-color: red;
+  float: left;
+  border-spacing: 15px;
+  border-right: 15px;
+}
+
+.description{
+  /*margin-left: 50px;*/
+  /*float: none;*/
+  /*border-style: dotted;*/
+  /*border-color: red;*/
+  /*border-width: medium;*/
+  clear: left;
+}
+
+footer{
+  float: none;
+}

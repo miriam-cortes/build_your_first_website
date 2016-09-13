@@ -1,17 +1,21 @@
 
 header{
   text-align: center;
-  border: 3px;
-  border-style: dotted;
+  border: 3px; /*the box around the header*/
+  /*border-style: dotted;*/
   border-style: groove;
-  color: red;
-  font-family: Arial;
+  color: red; /* of the font */
+  font-family: "Schoolbell";
   background-color: lightblue;
 }
 
 body {
-    font: Helvetica;
-    background-color: lightyellow;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Schoolbell";
+  background-color: lightyellow;
+  float: none;
+  /*display: inline;*/
 }
 
 nav img {
@@ -19,28 +23,45 @@ nav img {
 }
 
 nav{
-  color: orange;
-
+  background-color: red;
+  clear: right;
+  text-align: center;
+  /*float: left; took it away from its own line*/
+  /*margin: 5px 15px 15px 15px;*/
 }
 
-ul{
-  list-style: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-
-article img {
-  border-style: double;
-  border-color: pink;
-  border-radius: 10px;
-  border-width: thick;
-  float: left;
-}
-
-h2 ul {
+li{
+  list-style: none;  removes bullets on lists
   display: inline;
+  float: none;
+  /*border-right: 1px solid #bbb;*/
 }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    /*text-decoration doesn't allow underlining for websites already visited*/
+    text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+/*h2 ul {
+  display: inline;did nothing
+}*/
 
 a:hover {
-  color: black;
+  color: yellow;
 }
 
 footer{
@@ -50,4 +71,5 @@ footer{
   border-style: solid;
   border-color: red;
   font-style: italic;
+  font-family: "Schoolbell";
 }

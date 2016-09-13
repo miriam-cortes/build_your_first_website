@@ -1,0 +1,26 @@
+#shop-blurb {
+  /*display: inline;*/
+  /*clear: left;*/
+  font-stretch: expanded;
+  text-align: center;
+  /*background-color: purple;*/
+}
+
+.pictures-of-book-covers img{
+  background-color: red;
+  border: 20px;
+  /*position: relative does nothing;*/
+  /*display: flex;*/
+  /*align-items: center; does nothing*/
+  /*align-self: center does nothing;*/
+  /*display: inline-block;*/
+  /*width: 400px;
+  height: auto;*/
+  /*position: relative;*/
+  width: 18%; /* width of picture area is 17% of screen*/
+}
+
+nav ul {
+  /*display: inline;*/
+  float: none;
+}
