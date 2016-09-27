@@ -8,7 +8,7 @@
 
 .pictures-of-book-covers img{
   background-color: red;
-  border: 20px;
+  border: 5%;
   /*position: relative does nothing;*/
   /*display: flex;*/
   /*align-items: center; does nothing*/
@@ -23,4 +23,7 @@
 nav ul {
   /*display: inline;*/
   float: none;
+  text-align: center;
 }
+
+/**{border: black 1px solid;}*/

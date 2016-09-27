@@ -25,9 +25,12 @@ nav img {
 nav{
   background-color: red;
   clear: right;
-  text-align: center;
   /*float: left; took it away from its own line*/
   /*margin: 5px 15px 15px 15px;*/
+}
+
+nav ul{
+    /*text-align: center;*/
 }
 
 ul {
